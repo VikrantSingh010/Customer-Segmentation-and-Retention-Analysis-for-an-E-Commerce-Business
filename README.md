@@ -1,4 +1,4 @@
-# 🧹 Online Retail II – Data Cleaning, RFM Segmentation & CLTV Prediction
+# Online Retail II – Data Cleaning, RFM Segmentation & CLTV Prediction
 
 ## 📄 Overview
 This project performs **data cleaning, feature engineering, and advanced customer analytics** on the **Online Retail II dataset (`online_retail_II.xlsx`)**.  
