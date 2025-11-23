@@ -1,12 +1,12 @@
 # Online Retail II – Data Cleaning, RFM Segmentation & CLTV Prediction
 
-## 📄 Overview
+##  Overview
 This project performs **data cleaning, feature engineering, and advanced customer analytics** on the **Online Retail II dataset (`online_retail_II.xlsx`)**.  
 The dataset contains real-world e-commerce transactions, and the notebook focuses on creating a clean dataset suitable for **RFM analysis**, **customer segmentation**, and **Customer Lifetime Value (CLTV)** prediction using statistical and machine learning models.
 
 ---
 
-## 🧰 Tech Stack
+## Tech Stack
 - **Python 3.10+**
 - **Libraries Used**
   - `pandas`
@@ -19,7 +19,7 @@ The dataset contains real-world e-commerce transactions, and the notebook focuse
 
 ---
 
-## 📦 Dataset Description
+##  Dataset Description
 **File:** `online_retail_II.xlsx`
 
 | Column Name | Description |
@@ -35,7 +35,7 @@ The dataset contains real-world e-commerce transactions, and the notebook focuse
 
 ---
 
-## 🧼 Data Cleaning Steps
+## Data Cleaning Steps
 1. **Load and Inspect Data**
    ```python
    df = pd.read_excel("online_retail_II.xlsx")
@@ -63,12 +63,12 @@ The dataset contains real-world e-commerce transactions, and the notebook focuse
 
 ---
 
-## 📊 RFM Analysis
+##  RFM Analysis
 Calculated **Recency, Frequency, Monetary (RFM)** metrics for each customer and segmented them into groups like **VIP**, **Loyal**, **Promising**, and **At Risk**.
 
 ---
 
-## 🧠 Customer Segmentation
+##  Customer Segmentation
 Performed clustering on RFM data using:
 - **DBSCAN**
 - **Gaussian Mixture Models (GMM)**
@@ -76,7 +76,7 @@ Performed clustering on RFM data using:
 
 ---
 
-## 💰 Customer Lifetime Value (CLTV)
+##  Customer Lifetime Value (CLTV)
 Used `lifetimes` models:
 - **BetaGeoFitter (BG/NBD)** for purchase prediction
 - **GammaGammaFitter** for monetary value prediction  
@@ -84,7 +84,7 @@ Predicted **6-month CLTV** and visualized distribution.
 
 ---
 
-## 📈 Key Insights
+## Key Insights
 - 6,859 duplicate transactions and 11,793 invalid records removed  
 - 4,339 unique customers identified  
 - Customers segmented by value and behavior  
@@ -92,7 +92,7 @@ Predicted **6-month CLTV** and visualized distribution.
 
 ---
 
-## 📂 File Structure
+##  File Structure
 ```
 ├── data_cleaning.ipynb
 ├── online_retail_II.xlsx
@@ -102,6 +102,6 @@ Predicted **6-month CLTV** and visualized distribution.
 
 ---
 
-## ✍️ Author
+##  Author
 **Vikrant Singh**  
 *Data Science Enthusiast | IIT Jodhpur*
